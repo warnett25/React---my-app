@@ -13,16 +13,6 @@ const Counter = (props) => {
     return classes
   }
 
-  // const handleIncrement = () => {
-  //   // setValue((prevState) => prevState + 1)
-  //   console.log("handleIncrement")
-  // }
-
-  // const handleDecrement = () => {
-  //   // setValue((prevState) => prevState - 1)
-  //   console.log("handleDecrement")
-  // }
-
   return (
     <div>
       <span>{props.name}</span>
